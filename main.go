@@ -145,7 +145,7 @@ func processImg(img *image.NRGBA) {
 			newFrame[idx1] = mag
 			newFrame[idx1+1] = mag
 			newFrame[idx1+2] = mag
-			newFrame[idx1+3] = 100
+			newFrame[idx1+3] = 255
 
 		}
 	}
